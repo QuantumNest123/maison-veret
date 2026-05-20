@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison Veret — Бутик-ателье делового пошива</title>
+    <meta name="description" content="Maison Veret — индивидуальный пошив деловых костюмов для предпринимателей, юристов и публичных людей. Приватный сервис, безупречная посадка.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="#" class="logo">
+                <span class="logo__mark">M</span>
+                <span class="logo__text">Maison Veret</span>
+            </a>
+            <nav class="nav">
+                <a href="#philosophy">Философия</a>
+                <a href="#services">Услуги</a>
+                <a href="#process">Процесс</a>
+                <a href="#materials">Материалы</a>
+                <a href="#cases">Клиенты</a>
+                <a href="#contact">Контакты</a>
+            </nav>
+            <a href="#contact" class="btn btn--ghost btn--small">Записаться</a>
+            <button class="burger" id="burger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero__bg">
+            <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=2200&q=85" alt="">
+        </div>
+        <div class="hero__vignette" aria-hidden="true"></div>
+        <div class="hero__weave" aria-hidden="true"></div>
+        <div class="hero__grain" aria-hidden="true"></div>
+
+        <div class="hero__lines" aria-hidden="true">
+            <span class="hero__tag hero__tag--1"><i></i>линия плеча</span>
+            <span class="hero__tag hero__tag--2"><i></i>посадка</span>
+            <span class="hero__tag hero__tag--3"><i></i>ручная отделка</span>
+        </div>
+
+        <div class="hero__badge" aria-label="Только по предварительной записи">
+            <span class="hero__badge-dot"></span>
+            <div>
+                <strong>By appointment only</strong>
+                <span>Private fitting room · Поварская, 23</span>
+            </div>
+        </div>
+
+        <div class="hero__grid">
+            <div class="hero__content">
+                <span class="eyebrow eyebrow--light">Bespoke atelier · Москва · с 2012</span>
+                <h1 class="hero__title">Костюм,<br>который работает<br>на вашу <em>репутацию</em></h1>
+                <p class="hero__sub">Закрытый дом пошива для тех, кто привык быть точным. Личный закройщик, итальянские и английские ткани, пять примерок — и костюм, который не требует объяснений.</p>
+                <div class="hero__actions">
+                    <a href="#contact" class="btn btn--primary">Записаться на приватную примерку</a>
+                    <a href="#process" class="btn btn--link">Посмотреть процесс <span class="arrow">→</span></a>
+                </div>
+            </div>
+
+            <aside class="hero__cards" aria-hidden="true">
+                <figure class="hero__card hero__card--lapel">
+                    <img src="assets/card-lapel.svg" alt="">
+                    <figcaption><span>01</span> Лацкан · ручная простёжка</figcaption>
+                </figure>
+                <figure class="hero__card hero__card--tape">
+                    <img src="assets/card-measuring.svg" alt="">
+                    <figcaption><span>02</span> Мерки · 32 точки</figcaption>
+                </figure>
+                <figure class="hero__card hero__card--swatch">
+                    <img src="assets/card-swatches.svg" alt="">
+                    <figcaption><span>03</span> Образцы · шерсть</figcaption>
+                </figure>
+                <span class="hero__cards-tick" aria-hidden="true">
+                    <span></span><span></span><span></span><span></span><span></span>
+                </span>
+            </aside>
+        </div>
+
+        <div class="hero__meta">
+            <div><span>01</span> 120+ тканей</div>
+            <div><span>02</span> 5 примерок</div>
+            <div><span>03</span> Лекала под клиента</div>
+        </div>
+    </section>
+
+    <section class="philosophy" id="philosophy">
+        <div class="container two-col">
+            <div class="reveal">
+                <span class="eyebrow">— Философия дома</span>
+                <h2 class="h2">Мы шьём не одежду.<br>Мы выстраиваем <em>образ</em>.</h2>
+                <div class="atelier-stats" aria-hidden="false">
+                    <div><strong>14</strong><span>лет дому</span></div>
+                    <div><strong>3</strong><span>закройщика</span></div>
+                    <div><strong>180</strong><span>клиентов в год</span></div>
+                </div>
+            </div>
+            <div class="reveal reveal--delay">
+                <p class="lead">В Maison Veret работают трое закройщиков и один главный мастер. Мы не открываем дверь массовому потоку: четыре приватные примерки в неделю — это потолок, за которым начинается компромисс с качеством.</p>
+                <p class="lead">Мы говорим о задачах, а не о моделях. Костюм для совета директоров и костюм для частной встречи — разные пропорции плеча, разная плотность шерсти, разный голос подкладки. Гардероб должен работать тихо: только аккуратная, спокойная уверенность, которую считывают с первой секунды.</p>
+                <div class="signature">
+                    <span class="signature__mono" aria-hidden="true">
+                        <i>A</i><i>V</i>
+                    </span>
+                    <div>
+                        <strong>Антуан Веро</strong>
+                        <span>Главный закройщик · в профессии с 2003 года</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="eyebrow">— Услуги</span>
+                <h2 class="h2">Пять направлений<br><em>точной работы</em></h2>
+            </div>
+            <div class="services__grid">
+                <article class="service reveal">
+                    <span class="service__num">01</span>
+                    <div class="service__body">
+                        <h3>Деловой костюм</h3>
+                        <p>Двойка или тройка под конкретные задачи: переговоры, выступления, ежедневный офис. Подбор ткани, силуэта и канвы вручную.</p>
+                        <span class="service__meta">от 280 000 ₽ · 6–8 недель</span>
+                    </div>
+                </article>
+                <article class="service reveal">
+                    <span class="service__num">02</span>
+                    <div class="service__body">
+                        <h3>Смокинг</h3>
+                        <p>Вечерний костюм с шёлковыми лацканами, под чёрный галстук или Black Tie. Свободная архитектура плеч, выверенная длина.</p>
+                        <span class="service__meta">от 360 000 ₽ · 8 недель</span>
+                    </div>
+                </article>
+                <article class="service reveal">
+                    <span class="service__num">03</span>
+                    <div class="service__body">
+                        <h3>Капсульный гардероб</h3>
+                        <p>5–7 предметов, которые работают вместе: костюмы, рубашки, верх. Решает задачу года, а не одного выхода.</p>
+                        <span class="service__meta">от 1 200 000 ₽ · 3 месяца</span>
+                    </div>
+                </article>
+                <article class="service reveal">
+                    <span class="service__num">04</span>
+                    <div class="service__body">
+                        <h3>Рубашки на заказ</h3>
+                        <p>32 мерки, итальянский хлопок, ручная пришивка пуговиц. От воротника до манжет — под индивидуальный стиль.</p>
+                        <span class="service__meta">от 38 000 ₽ · 4 недели</span>
+                    </div>
+                </article>
+                <article class="service reveal service--wide">
+                    <span class="service__num">05</span>
+                    <div class="service__body">
+                        <h3>Рестайлинг посадки</h3>
+                        <p>Работаем с уже имеющимся гардеробом: правим линию плеча, талию, длину рукава и брюк. Возвращаем дорогим вещам форму.</p>
+                        <span class="service__meta">от 18 000 ₽ · 2 недели</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-head section-head--split reveal">
+                <div>
+                    <span class="eyebrow eyebrow--light">— Процесс</span>
+                    <h2 class="h2 h2--light">Пять встреч<br>до <em>финальной посадки</em></h2>
+                </div>
+                <p class="process__lead">
+                    От первого разговора до финальной посадки проходит шесть–восемь недель. Это не сервис «по таблице» — это пять личных встреч с закройщиком в нашей примерочной. Мы не торопимся: костюм должен «сесть» на дыхании, на жесте, на привычной осанке клиента.
+                </p>
+            </div>
+            <ol class="process__list">
+                <li class="process__item reveal">
+                    <span class="process__num">01</span>
+                    <h3>Консультация</h3>
+                    <p>Знакомство и разговор о задачах: где и когда вы носите костюм, какой образ хотите транслировать.</p>
+                    <span class="process__time">90 минут</span>
+                </li>
+                <li class="process__item reveal">
+                    <span class="process__num">02</span>
+                    <h3>Снятие мерок</h3>
+                    <p>32 точки измерений с учётом осанки, манеры держаться и привычных жестов. Фиксируем рабочую руку.</p>
+                    <span class="process__time">60 минут</span>
+                </li>
+                <li class="process__item reveal">
+                    <span class="process__num">03</span>
+                    <h3>Подбор ткани</h3>
+                    <p>Образцы итальянских и английских домов: Loro Piana, Vitale Barberis Canonico, Holland & Sherry.</p>
+                    <span class="process__time">120 минут</span>
+                </li>
+                <li class="process__item reveal">
+                    <span class="process__num">04</span>
+                    <h3>Первая примерка</h3>
+                    <p>«Канва» — макет костюма из неотбелённой ткани. Корректируем баланс, плечо, грудь, отрезной шов.</p>
+                    <span class="process__time">45 минут</span>
+                </li>
+                <li class="process__item reveal">
+                    <span class="process__num">05</span>
+                    <h3>Финальная посадка</h3>
+                    <p>Доводим длину рукава с учётом манжет рубашки, длину брюк и положение пуговицы талии.</p>
+                    <span class="process__time">45 минут</span>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="materials" id="materials">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="eyebrow">— Материалы</span>
+                <h2 class="h2">Ткани и фурнитура<br><em>с историей</em></h2>
+            </div>
+            <div class="materials__grid">
+                <figure class="material reveal">
+                    <div class="material__img">
+                        <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=900&q=80" alt="Итальянская шерсть">
+                    </div>
+                    <figcaption>
+                        <h3>Итальянская шерсть</h3>
+                        <p>Super 130s–180s. Лёгкая, держит форму, не блестит. Базовая ткань для делового костюма.</p>
+                    </figcaption>
+                </figure>
+                <figure class="material reveal">
+                    <div class="material__img">
+                        <img src="https://images.unsplash.com/photo-1606483956061-46a898dce538?auto=format&fit=crop&w=900&q=80" alt="Кашемир">
+                    </div>
+                    <figcaption>
+                        <h3>Кашемир</h3>
+                        <p>Тёплый и мягкий, для пиджаков «вне переговорной»: ужин, путешествие, приватный приём.</p>
+                    </figcaption>
+                </figure>
+                <figure class="material reveal">
+                    <div class="material__img">
+                        <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=900&q=80" alt="Лён">
+                    </div>
+                    <figcaption>
+                        <h3>Лён</h3>
+                        <p>Ирландский и бельгийский. Для лета и южных поездок: дышит, элегантно ложится в складки.</p>
+                    </figcaption>
+                </figure>
+                <figure class="material reveal">
+                    <div class="material__img">
+                        <img src="https://images.unsplash.com/photo-1635368329710-ee775c365afe?auto=format&fit=crop&w=900&q=80" alt="Подкладочные ткани">
+                    </div>
+                    <figcaption>
+                        <h3>Подкладочные ткани</h3>
+                        <p>Купро и вискоза с шёлком. Скользят по рубашке, не сминаются, дают пиджаку «дыхание».</p>
+                    </figcaption>
+                </figure>
+                <figure class="material reveal">
+                    <div class="material__img">
+                        <img src="https://images.unsplash.com/photo-1605518293493-1f5e1aaa0c79?auto=format&fit=crop&w=900&q=80" alt="Пуговицы и фурнитура">
+                    </div>
+                    <figcaption>
+                        <h3>Пуговицы и фурнитура</h3>
+                        <p>Рог, перламутр, корозо. Под цвет ткани, под характер клиента и характер вечера.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="cases" id="cases">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="eyebrow">— Клиенты</span>
+                <h2 class="h2">Три задачи —<br>три <em>гардероба</em></h2>
+            </div>
+
+            <article class="case reveal">
+                <div class="case__img">
+                    <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80" alt="Кейс — предприниматель">
+                </div>
+                <div class="case__body">
+                    <span class="case__tag">Предприниматель · IT</span>
+                    <h3>Андрей К., 38 лет</h3>
+                    <ul class="case__list">
+                        <li><strong>Задача.</strong> Перейти из «худи и кед» в гардероб уровня совета директоров — без потери собственной интонации.</li>
+                        <li><strong>Решение.</strong> Капсула из 6 предметов: два графитовых костюма, твидовый пиджак, чиносы, две белые рубашки, шёлковый платок.</li>
+                        <li><strong>Результат.</strong> Костюм перестал «носить» клиента. Андрей провёл два раунда привлечения инвестиций и подписал стратегического партнёра.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="case case--reverse reveal">
+                <div class="case__img">
+                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1200&q=80" alt="Кейс — адвокат">
+                </div>
+                <div class="case__body">
+                    <span class="case__tag">Адвокат · Уголовное право</span>
+                    <h3>Дмитрий В., 52 года</h3>
+                    <ul class="case__list">
+                        <li><strong>Задача.</strong> Образ для зала суда: вес, спокойствие, никакого блеска. Камера федеральных каналов — без бликов.</li>
+                        <li><strong>Решение.</strong> Тройка из английской шерсти Holland & Sherry 13 oz, чёрный галстук без рисунка, белая рубашка с двойной манжетой.</li>
+                        <li><strong>Результат.</strong> Клиент перестал думать об одежде на процессах и сконцентрировался на деле. Два резонансных дела выиграны.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="case reveal">
+                <div class="case__img">
+                    <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=1200&q=80" alt="Кейс — ведущий мероприятий">
+                </div>
+                <div class="case__body">
+                    <span class="case__tag">Ведущий · Премии и форумы</span>
+                    <h3>Михаил Л., 41 год</h3>
+                    <ul class="case__list">
+                        <li><strong>Задача.</strong> Сценический костюм, в котором не жарко под софитами и который не «утюжится» каждые 20 минут.</li>
+                        <li><strong>Решение.</strong> Смокинг из лёгкой шерсти с шёлковыми лацканами, рубашка-плиссе на запонках, поясной кушак цвета бордо.</li>
+                        <li><strong>Результат.</strong> 14 мероприятий за сезон, ни одной правки в гардеробе. Костюм стал частью узнаваемого визуального стиля.</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="details">
+        <div class="container">
+            <div class="section-head section-head--light reveal">
+                <span class="eyebrow eyebrow--light">— Hand finished</span>
+                <h2 class="h2 h2--light">То, что считывается<br><em>вблизи</em></h2>
+                <p class="details__lead">Костюм всегда «выдаёт себя» на расстоянии вытянутой руки. Поэтому пять элементов мы делаем только вручную — иголкой, мелом, шёлковой нитью.</p>
+            </div>
+            <div class="details__grid">
+                <div class="detail reveal">
+                    <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=900&q=80" alt="Лацкан">
+                    <div class="detail__text"><span>01</span> Лацкан · ручная простёжка</div>
+                </div>
+                <div class="detail reveal">
+                    <img src="https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=900&q=80" alt="Петля">
+                    <div class="detail__text"><span>02</span> Петля · обмётка шёлком</div>
+                </div>
+                <div class="detail reveal">
+                    <img src="https://images.unsplash.com/photo-1605518293493-1f5e1aaa0c79?auto=format&fit=crop&w=900&q=80" alt="Манжета">
+                    <div class="detail__text"><span>03</span> Манжета · рабочие пуговицы</div>
+                </div>
+                <div class="detail reveal">
+                    <img src="https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?auto=format&fit=crop&w=900&q=80" alt="Подкладка">
+                    <div class="detail__text"><span>04</span> Подкладка · купро и шёлк</div>
+                </div>
+                <div class="detail reveal">
+                    <img src="https://images.unsplash.com/photo-1591369822096-ffd140ec948f?auto=format&fit=crop&w=900&q=80" alt="Монограмма">
+                    <div class="detail__text"><span>05</span> Монограмма · инициалы внутри</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta" id="contact">
+        <div class="container two-col two-col--cta">
+            <div class="reveal">
+                <span class="eyebrow">— Запрос на приватную встречу</span>
+                <h2 class="h2">Откройте двери<br>в <em>дом пошива</em></h2>
+                <p class="lead">Maison Veret принимает не более четырёх клиентов в неделю. Встреча — в нашей примерочной на Поварской или, по договорённости, в вашем офисе или резиденции. Мы перезвоним лично — никаких рассылок, никаких напоминаний от третьих сервисов.</p>
+                <ul class="cta__info">
+                    <li><span>Ателье</span> Москва, Поварская, 23 · 2-й этаж, по звонку</li>
+                    <li><span>Часы</span> Пн–Сб, 11:00–21:00 · только по записи</li>
+                    <li><span>Контакт</span> +7 (495) 000-00-00 · hello@maisonveret.ru</li>
+                    <li><span>Дискретность</span> Заявки обрабатывает лично главный закройщик</li>
+                </ul>
+            </div>
+            <form class="form reveal" id="form" novalidate>
+                <div class="form__row">
+                    <label>
+                        <span>Имя</span>
+                        <input type="text" name="name" placeholder="Как к вам обращаться" required>
+                    </label>
+                </div>
+                <div class="form__row">
+                    <label>
+                        <span>Телефон</span>
+                        <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+                    </label>
+                </div>
+                <div class="form__row">
+                    <label>
+                        <span>Цель костюма</span>
+                        <select name="goal" required>
+                            <option value="">Выберите задачу</option>
+                            <option>Ежедневный деловой гардероб</option>
+                            <option>Переговоры и публичные выступления</option>
+                            <option>Смокинг и вечерние выходы</option>
+                            <option>Капсула на сезон</option>
+                            <option>Рестайлинг существующего гардероба</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="form__row">
+                    <label>
+                        <span>Удобное время визита</span>
+                        <input type="text" name="time" placeholder="Например: пятница, 17:00" required>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full">Отправить личный запрос</button>
+                <p class="form__note">Главный закройщик свяжется с вами в течение рабочего дня. Данные не передаются третьим лицам, рассылок мы не ведём.</p>
+                <p class="form__success" id="success">Запрос получен. Ожидайте звонка от Maison Veret в течение рабочего дня.</p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <span class="logo__mark logo__mark--light">M</span>
+                <div>
+                    <strong>Maison Veret</strong>
+                    <span>Бутик-ателье делового пошива</span>
+                </div>
+            </div>
+            <div class="footer__cols">
+                <div>
+                    <span class="footer__title">Ателье</span>
+                    <a href="#philosophy">Философия</a>
+                    <a href="#services">Услуги</a>
+                    <a href="#process">Процесс</a>
+                </div>
+                <div>
+                    <span class="footer__title">Контакты</span>
+                    <a href="#">+7 (495) 000-00-00</a>
+                    <a href="#">hello@maisonveret.ru</a>
+                    <a href="#">Поварская, 23, Москва</a>
+                </div>
+                <div>
+                    <span class="footer__title">Соцсети</span>
+                    <a href="#">Telegram</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">VK</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <span>© 2026 Maison Veret. Все права защищены.</span>
+                <span>Дизайн и пошив — Москва</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
